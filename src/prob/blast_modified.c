@@ -111,8 +111,6 @@ void problem(DomainS *pDomain)
   d_ind   = 0.0;
 #endif
 
-//print vol to file
-
 dump_history_enroll(total_rad_mom, "total_rad_mom");
 dump_history_enroll(internal_E, "internal_E");
 dump_history_enroll(bubble_vol, "bubble_vol");
